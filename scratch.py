@@ -26,3 +26,18 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 with open(file_to_load) as election_data:
 
     # To do: read and analyze the data here.
+
+
+    for row in csvreader:
+        #This is the total votes cast, just count rows
+        total_votes += 1
+        #read in the candidate from column 3 of csv
+        candidate_in = (row[2])
+        #if candidate alreaady in list then locate the candidate by index # and increment the vote count by 1
+        if candidate_in in candidates_unique:
+            candidate_index = candidates_unique.index(candidate_in)
+            candidate_vote_count[candidate_index] = candidate_vote_count[candidate_index] + 1
+        else:
+            #if candidate was not found in candidates_unique list then append to list and add 1 to vote count
+            candidates_unique.append(candidate_in)
+            candidate_vote_count.append(1)
