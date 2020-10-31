@@ -19,28 +19,35 @@ A Colorado Board of Elections employee has given the following tasks to complete
 ## Election-Audit Results: 
 -The Election-Audit Results can be found in the election_analysis.txt file.
 
-The analysis of the election show that: 
--There were 369,711 votes cast in the election.
--The candidates were:
-  -Charles Casper Stockham
-  -Diana DeGette
+The analysis of the election show that:
+
+There were 369,711 votes cast in the election. 
+
+The candidates were:        
+  -Charles Casper Stockham      
+  -Diana DeGette      
   -Raymon Anthony Doane
--The candidate results were:
-  -Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-  -Diana DeGette received 73.8% of the vote and 272,892 number of votes.
-  -Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
-- The winner of the election was:
-  -Candidate Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
--The counties were:
-  -Jefferson
-  -Denver
-  -Arapahoe
--The county results were:
-  -Jefferson county received 10.5% of the voter turnout and 38,855 number of voters.
-  -Denver county received 82.8% of the voter turnout and 306,055 number of voters.
-  -Arapahoe countyreceived 6.7% of the voter turnout and 24,801 number of voters.
--The county with the largest turnout was:
-  -Denver county, which received 82.8% of the votes and 306,055 number of voters.
+  
+The candidate results were:      
+  -Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.    
+  -Diana DeGette received 73.8% of the vote and 272,892 number of votes.    
+  -Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.    
+  
+The winner of the election was:      
+  -Candidate Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.       
+  
+The counties were:    
+  -Jefferson  
+  -Denver  
+  -Arapahoe  
+  
+The county results were:    
+  -Jefferson county received 10.5% of the voter turnout and 38,855 number of voters.      
+  -Denver county received 82.8% of the voter turnout and 306,055 number of voters.      
+  -Arapahoe countyreceived 6.7% of the voter turnout and 24,801 number of voters.      
+  
+The county with the largest turnout was:    
+  -Denver county, which received 82.8% of the votes and 306,055 number of voters.  
 
 ## Election-Audit Summary: 
 -The PyPoll.py script can be run with any csv data in other campaigns for state and local elections that follow the same three column format of the election_results.csv. The script can be modified for other csv data that contains more columns or less columns to extract data like candidate name, county name, party affliation, etc. from a particular row in the csv data so that the script can be run without errors. 
